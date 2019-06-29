@@ -1,8 +1,8 @@
 //
 //  ModelController.swift
-//  taskdateapp
+//  taskdate
 //
-//  Created by Lucy Li on 22/06/2019.
+//  Created by Phoenix Logan on 6/29/19.
 //  Copyright © 2019 PLLL. All rights reserved.
 //
 
@@ -27,7 +27,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         super.init()
         // Create the data model.
         let dateFormatter = DateFormatter()
-        pageData = ["A", "B"]//dateFormatter.monthSymbols
+        pageData = dateFormatter.monthSymbols
     }
 
     func viewControllerAtIndex(_ index: Int, storyboard: UIStoryboard) -> DataViewController? {

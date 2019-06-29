@@ -1,14 +1,14 @@
 //
-//  taskdateappUITests.swift
-//  taskdateappUITests
+//  taskdateUITests.swift
+//  taskdateUITests
 //
-//  Created by Lucy Li on 22/06/2019.
+//  Created by Phoenix Logan on 6/29/19.
 //  Copyright © 2019 PLLL. All rights reserved.
 //
 
 import XCTest
 
-class taskdateappUITests: XCTestCase {
+class taskdateUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
